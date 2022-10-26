@@ -1,8 +1,12 @@
 const express = require('express')
 const app = express();
+const cors = require('cors')
 const port = process.env.PORT || 5000;
 
+app.use(cors())
+
 const coursedata = require('./data/coursedata.json');
+
 
 
 app.get('/', (req, res) =>{
