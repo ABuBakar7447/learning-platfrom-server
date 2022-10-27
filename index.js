@@ -9,6 +9,10 @@ const coursedata = require('./data/coursedata.json');
 
 const coursedetails = require('./data/detailscourse.json')
 
+const DetailsById = require('./data/detailscourse.json')
+
+
+
 
 
 app.get('/', (req, res) =>{
@@ -22,6 +26,12 @@ app.get('/course-data', (req, res) =>{
 app.get('/course/:id', (req, res) =>{
     const id = req.params.id
     const seletedCourse = coursedetails.find(n =>n.id === id)
+    res.send(seletedCourse)
+    
+})
+app.get('/premium/:id', (req, res) =>{
+    const id = req.params.id
+    const seletedCourse = coursedetails.find(n =>n.course_id === id)
     res.send(seletedCourse)
     
 })

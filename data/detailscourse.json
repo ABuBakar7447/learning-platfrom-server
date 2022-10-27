@@ -1,38 +1,50 @@
 [
     {
         "id":"11",
+        "course_id":"201",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
         "name":"CSS",
-        "details":"CSS is the language we use to style an HTML document.CSS describes how HTML elements should be displayed.This tutorial will teach you CSS from basic to advanced."
+        "details":"Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module provides a gentle beginning to your path towards CSS mastery with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.",
+        "payment":"$17"
         },
     {
         "id":"12",
+        "course_id":"202",
         "image":"https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png",
         "name":"Javascript",
-        "details":"JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web.JavaScript is easy to learn.This tutorial will teach you JavaScript from basic to advanced."
+        "details":"JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web.JavaScript is easy to learn.This tutorial will teach you JavaScript from basic to advanced.",
+        "payment":"$27"
         },
     {
         "id":"13",
+        "course_id":"203",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png",
         "name":"Python",
-        "details":"Python is a popular programming language.Python can be used on a server to create web applications."
+        "details":"Python is a popular programming language.Python can be used on a server to create web applications.",
+        "payment":"$37"
         },
     {
         "id":"14",
+        "course_id":"204",
         "image":"https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png",
         "name":"Java",
-        "details":"Java is a popular programming language.Java is used to develop mobile apps, web apps, desktop apps, games and much more."
+        "details":"Java is a popular programming language.Java is used to develop mobile apps, web apps, desktop apps, games and much more.",
+        "payment":"$47"
         },
     {
         "id":"15",
+        "course_id":"205",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png",
         "name":"C++",
-        "details":"C++ is a popular programming language.C++ is used to create computer programs, and is one of the most used language in game development."
+        "details":"C++ is a popular programming language.C++ is used to create computer programs, and is one of the most used language in game development.",
+        "payment":"$57"
         },
     {
         "id":"16",
+        "course_id":"206",
         "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
         "name":"HTML",
-        "details":"HTML is the standard markup language for Web pages.With HTML you can create your own Website.HTML is easy to learn - You will enjoy it!"
+        "details":"HTML is the standard markup language for Web pages.With HTML you can create your own Website.HTML is easy to learn - You will enjoy it!",
+        "payment":"$67"
         }
     ]
